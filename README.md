@@ -22,7 +22,7 @@ A modern, fast React Native app that helps students manage their academic life -
 
 ## 📥 Download Latest Version
 
-[![Download APK](https://img.shields.io/badge/Download-Latest_Release-brightgreen)](https://github.com/FarhanZafarr-9/Flex/releases/latest)
+[![Download APK](https://img.shields.io/badge/Download-Latest_Release-brightgreen)](https://github.com/FarhanZafarr-9/FlexPrime/releases/latest)
 
 Get the latest APK from our [Releases Page](https://github.com/FarhanZafarr-9/FlexPrime/releases)
 
