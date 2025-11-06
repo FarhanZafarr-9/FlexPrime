@@ -39,8 +39,8 @@ Built with:
 **Email:** farhanzafarr.9@gmail.com  
 **Issues:** [GitHub Issues](https://github.com/FarhanZafarr-9/Flex/issues)
 
----
-
 *Your all-in-one academic companion* 📚✨
 
 ---
+
+Made with ❤️ by Parzival
