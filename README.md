@@ -105,4 +105,4 @@ FlexPrime is an independent student project and is **not officially affiliated w
 
 Made with ❤️ by Parzival — a solo passion project built late nights between classes and exams, started August 2025. If FlexPrime helped you, share it with a classmate.
 
-[![Download](https://img.shields.io/badge/Get_FlexPrime-Download_Now-333?style=for-the-badge&logo=android&logoColor=white)](https://github.com/FarhanZafarr-9/FlexPrime/releases/latest)
+[![Download](https://img.shields.io/badge/Get_FlexPrime-Download_Now-f5f5f5?style=for-the-badge&logo=android&logoColor=f5f5f5&labelColor=08080b)](https://github.com/FarhanZafarr-9/FlexPrime/releases/latest)
