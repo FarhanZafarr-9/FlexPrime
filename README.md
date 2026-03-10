@@ -9,6 +9,15 @@
 
 ---
 
+## Why FlexPrime?
+
+The official Flex portal works — but barely. No analytics, no insights, no way to track 
+your progress meaningfully. FlexPrime was built out of frustration with that experience 
+and a belief that students deserve better tools.
+
+Everything the portal does, FlexPrime does faster. Everything it doesn't do — analytics, 
+insights, materials, reviews, productivity tools — FlexPrime does that too.
+
 ## Features
 
 ### Marks & Analytics
