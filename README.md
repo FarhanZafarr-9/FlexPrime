@@ -8,6 +8,19 @@
 > Marks · Attendance · Timetable · Past Papers · and more — faster, smarter, and more useful than the official portal.
 
 ---
+## Screenshots
+
+<div align="center">
+  <img src="assets/screenshots/login.png" width="18%" />
+  <img src="assets/screenshots/dashboard.png" width="18%" />
+  <img src="assets/screenshots/marks_preview.png" width="18%" />
+  <img src="assets/screenshots/attendance_preview.png" width="18%" />
+  <img src="assets/screenshots/timetable (2).png" width="18%" />
+  <img src="assets/screenshots/calculators.png" width="18%" />
+  <img src="assets/screenshots/side_nav.png" width="18%" />
+</div>
+
+---
 
 ## Why FlexPrime?
 
