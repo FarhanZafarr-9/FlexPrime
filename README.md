@@ -11,13 +11,13 @@
 ## Screenshots
 
 <div align="center">
-  <img src="assets/screenshots/login.jpg" width="18%" />
-  <img src="assets/screenshots/dashboard.jpg" width="18%" />
-  <img src="assets/screenshots/marks_preview.jpg" width="18%" />
-  <img src="assets/screenshots/attendance_preview.jpg" width="18%" />
-  <img src="assets/screenshots/timetable.jpg" width="18%" />
-  <img src="assets/screenshots/calculators.jpg" width="18%" />
-  <img src="assets/screenshots/side_nav.jpg" width="18%" />
+  <img src="assets/screenshots/login.jpg" width="25%" />
+  <img src="assets/screenshots/dashboard.jpg" width="25%" />
+  <img src="assets/screenshots/side_nav.jpg" width="25%" />
+  <img src="assets/screenshots/marks_preview.jpg" width="25%" />
+  <img src="assets/screenshots/attendance_preview.jpg" width="25%" />
+  <img src="assets/screenshots/timetable.jpg" width="25%" />
+  <img src="assets/screenshots/calculators.jpg" width="25%" />
 </div>
 
 ---
