@@ -91,7 +91,9 @@ insights, materials, reviews, productivity tools — FlexPrime does that too.
 
 ## Known Limitations
 
-- Study plan data may occasionally fail to load — re-login to retry, or logout and back in for a clean refresh
+- App may crash on first launch due to initial setup/update checks — relaunching 2–3 times usually resolves it
+- Study plan data may occasionally fail to load — re-login or logout and back in for a clean refresh
+- Attendance may also fail to load or keep failing across refreshes — similar workaround as above
 - App is currently built for FAST-NUCES Lahore campus only
 
 ---
