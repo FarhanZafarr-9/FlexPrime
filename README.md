@@ -1,7 +1,7 @@
 # FlexPrime — Academic Companion for FASTians
 
 [![Download](https://img.shields.io/badge/Download-Latest_Release-f5f5f5?style=for-the-badge&logo=android&logoColor=f5f5f5&labelColor=08080b)](https://github.com/FarhanZafarr-9/FlexPrime/releases/latest)
-[![Version](https://img.shields.io/badge/Version-1.6.0-f5f5f5?style=for-the-badge&labelColor=08080b)](https://github.com/FarhanZafarr-9/FlexPrime/releases)
+[![Version](https://img.shields.io/badge/Version-1.7.0-f5f5f5?style=for-the-badge&labelColor=08080b)](https://github.com/FarhanZafarr-9/FlexPrime/releases)
 [![Platform](https://img.shields.io/badge/Platform-Android-f5f5f5?style=for-the-badge&logo=android&logoColor=f5f5f5&labelColor=08080b)](https://github.com/FarhanZafarr-9/FlexPrime)
 
 > **Built to give every FASTian the prime academic experience they deserve.**
