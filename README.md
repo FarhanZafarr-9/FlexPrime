@@ -1,80 +1,115 @@
 # FlexPrime — Academic Companion for FASTians
 
 [![Download](https://img.shields.io/badge/Download-Latest_Release-f5f5f5?style=for-the-badge&logo=android&logoColor=f5f5f5&labelColor=08080b)](https://github.com/FarhanZafarr-9/FlexPrime/releases/latest)
-[![Version](https://img.shields.io/badge/Version-1.7.0-f5f5f5?style=for-the-badge&labelColor=08080b)](https://github.com/FarhanZafarr-9/FlexPrime/releases)
+[![Version](https://img.shields.io/badge/Version-2.0.0-f5f5f5?style=for-the-badge&labelColor=08080b)](https://github.com/FarhanZafarr-9/FlexPrime/releases)
 [![Platform](https://img.shields.io/badge/Platform-Android-f5f5f5?style=for-the-badge&logo=android&logoColor=f5f5f5&labelColor=08080b)](https://github.com/FarhanZafarr-9/FlexPrime)
 
 > **Built to give every FASTian the prime academic experience they deserve.**
-> Marks · Attendance · Timetable · Past Papers · and more — faster, smarter, and more useful than the official portal.
+> Marks · Attendance · Timetable · Past Papers · Faculty Hub · Study Plans — faster, smarter, and more useful than the official portal.
 
 ---
+
 ## Screenshots
 
 <div align="center">
-  <img src="assets/screenshots/login.png" width="25%" />
-  <img src="assets/screenshots/dashboard.png" width="25%" />
- <img src="assets/screenshots/attendance.png" width="25%" />
-    <img src="assets/screenshots/materials.png" width="25%" />
-  <img src="assets/screenshots/marks.png" width="25%" />
-  <img src="assets/screenshots/timetable.png" width="25%" />
-  <img src="assets/screenshots/side_nav.png" width="25%" />
-  <img src="assets/screenshots/calculators.png" width="25%" />
+  <img src="assets/screenshots/login.jpg" width="24%" />
+  <img src="assets/screenshots/dashboard.jpg" width="24%" />
+  <img src="assets/screenshots/attendance.jpg" width="24%" />
+  <img src="assets/screenshots/marks.jpg" width="24%" />
+  <img src="assets/screenshots/timetable.jpg" width="24%" />
+  <img src="assets/screenshots/materials.jpg" width="24%" />
+  <img src="assets/screenshots/side_nav.jpg" width="24%" />
+  <img src="assets/screenshots/insights.jpg" width="24%" />
+  <img src="assets/screenshots/help_guides.jpg" width="24%" />
+  <img src="assets/screenshots/faculty_hub.jpg" width="24%" />
+  <img src="assets/screenshots/marks_preview.jpg" width="24%" />
 </div>
 
 ---
 
 ## Why FlexPrime?
 
-The official Flex portal works — but barely. No analytics, no insights, no way to track 
-your progress meaningfully. FlexPrime was built out of frustration with that experience 
-and a belief that students deserve better tools.
+The official Flex portal works — but barely. No analytics, no insights, no way to track your progress meaningfully. FlexPrime was built out of frustration with that experience and a belief that students deserve better tools.
 
-Everything the portal does, FlexPrime does faster. Everything it doesn't do — analytics, 
-insights, materials, reviews, productivity tools — FlexPrime does that too.
+Everything the portal does, FlexPrime does faster. Everything it doesn't do — analytics, insights, materials hub, faculty reviews, productivity tools — FlexPrime does that too.
+
+---
 
 ## Features
 
+### Dashboard
+- Centralised overview of your academic life at a glance
+- Quick stats: attendance, GPA, upcoming classes, pending assignments
+- **Recent Changes**: see what's new after every sync — marks updates, attendance changes, and system detections, each tappable to navigate directly
+- Resource Sync status indicator with on-demand refresh
+
 ### Marks & Analytics
 - Semester-wise marks breakdown with weighted averages and predicted grades
-- Live diff-checking — get notified the moment new marks are posted
+- Live diff-checking — notified the moment new marks are posted
 - Class average comparisons and performance tracking
 - Approximated SGPA/CGPA the official portal doesn't provide
+- Absolute grading scheme support
+- Repeat/improvement detection from transcript history
 
 ### Attendance
 - Real-time percentages with color-coded risk indicators
 - "Classes to Bunk" and "Classes Needed" calculators per subject
 - Subject-wise present/absent/leave breakdown
+- Weekly attendance summaries on the dashboard
 
 ### Timetable
 - Clean calendar and list views with venue and instructor details
+- **Manual Timetable Entry** — build your schedule manually when the server can't provide it
 - Export as image or PDF
+- Ramadan-adjusted schedule support
 
 ### Datesheet & Exams
 - Full exam schedule with date, time and venue
+- Clash detection and countdown timers
 - Export as image or PDF for offline reference
 
 ### Materials Hub
 - Past papers, outlines, notes and more — aggregated from multiple trusted sources
-- Smart categorization by course, type and semester
+- Smart categorisation by course, type and semester
 - Bookmarking, search and direct download
+- URL fragment handling fixes for reliable paper access
 
-### Teacher Reviews
-- Ratings and feedback from previous students
-- Powered by NucesRate via custom search and extraction
+### Faculty Hub
+- Professor profiles, qualifications and contact info (Lahore campus)
+- **Ratings and feedback** from previous students, powered by NucesRate
+- Fuse.js-powered search across live faculty data
 
 ### Study Plan & Transcript
 - Semester-wise course progression with credit hour tracking
 - Degree completion progress and prerequisite chains
-- Complete academic history beautifully presented
+- Full academic history beautifully presented
+
+### Help Guides
+- Nearly every screen comes with its own contextual help guide
+- Tap the info icon to see what each card, grid, and button does
+- First-time tour on opening Help Guides for the first time
+
+### Notifications
+- Smart class notifications with semester-boundary awareness
+- Re-engagement reminders during breaks
+- Automatic sanity checks and self-healing on startup
+- Background sync and notification rescheduling
 
 ### Productivity
-- Applications generator for structured leave/extension applications
-- Assignments tracker for managing deadlines and task types
-- GPA calculators for SGPA and CGPA planning
-- Faculty directory with profiles, qualifications and contact info (Lahore campus)
+- **Applications Generator** — structured leave/extension applications
+- **Assignments Tracker** — deadline management and task types
+- **GPA Calculators** — SGPA and CGPA planning with what-if scenarios (overhauled)
+- **Room Finder** — find available rooms and labs across campus
+- **Notes** — rich text editor with markdown support
+- **Rechecking Schedule** — apply for and track paper rechecking
+
+### Guest Mode
+- Browse and explore the app without signing in
+- Useful for previewing features before committing your credentials
 
 ### Customization
 - Dark mode with custom accent colors
+- AMOLED pure-black background option
 - Font scaling, border radius and spacing controls
 - Concise UI mode for information-dense layouts
 
@@ -92,15 +127,13 @@ insights, materials, reviews, productivity tools — FlexPrime does that too.
 ## Known Limitations
 
 - App may crash on first launch due to initial setup/update checks — relaunching 2–3 times usually resolves it
-- Study plan data may occasionally fail to load — re-login or logout and back in for a clean refresh
-- Attendance may also fail to load or keep failing across refreshes — similar workaround as above
 - App is currently built for FAST-NUCES Lahore campus only
 
 ---
 
 ## Tech Stack
 
-React Native · Expo · Supabase · React Navigation · AsyncStorage · Day.js
+React Native · Expo SDK 53 · Supabase · React Navigation 7 · Reanimated · FlashList · Day.js · React Native Paper · Material You Colors
 
 ---
 
