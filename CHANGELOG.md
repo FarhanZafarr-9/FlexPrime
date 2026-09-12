@@ -2,6 +2,40 @@
 
 All notable changes to FlexPrime are documented here, in reverse chronological order.
 
+## 2.2.1 — Cloudflare Bypass, Login Hotfix & Attendance Sync (Sep 12, 2026)
+
+### Added
+
+- Live portal status badge on the login screen — know if the portal is reachable before you sign in.
+- New “Show Profile Picture” setting under Appearance — turn it off to hide your photo on the dashboard card and profile screen.
+
+### Improved
+
+- Login error banner got a cleaner look — soft, no white flash, no stray close button.
+- Dashboard summary cards now show the icon of the screen they open instead of a generic arrow, and the risk panel got a cleaner grid.
+- A professor’s teaching tab now shows class timings and venues on each course card.
+- Enrolled courses stay at the top of the browser, single-section courses got their Add button, and bookmarked subjects form a “Custom Subjects” group.
+- Class notifications now include the course name, and the “Something Changed” sheet closes automatically when you jump into an item.
+- Your class average now sits right beside your marks with a small up/down trend arrow.
+- Marks and Attendance preview screens now show compact subject labels (e.g. “DS · CS301”) instead of full course names — no more header overflow.
+
+### Fixed
+
+- Login now handles Flex’s new Cloudflare verification automatically — just sign in as usual, no extra steps.
+- 2026-batch logins with the “HSSC/SSC marks missing” notice now sail straight to your dashboard — no more false “incorrect credentials” error.
+- Class detection is more reliable throughout the day, and attendance sync no longer falls back to stale cached records after a refresh.
+- Timetable sync recognises when your data is already downloaded, and GPA/status readouts are saner where data is missing.
+- Teaching courses now read both course data formats, so credit hours and sections appear reliably for every instructor.
+- No more silently dropped courses — the timetable pipeline recovers every class even when entries are malformed.
+- Credit hours come straight from the real course data, and meetings are grouped into one entry so teaching loads aren’t inflated by repeats.
+- Course titles are cleaner — merged-course annotation text no longer leaks in, and credits/sections show correctly.
+- Resource sync no longer fails with “Local version is current”, and fresh fixes reach your device even when the version number hasn’t changed.
+- Course Browser no longer shows “No Courses Found” when your transcript hasn’t matched anything — it lists the full catalog to browse.
+- New-semester detection resets Marks and Attendance baselines with one clean notice, and existing courses are no longer re-flagged as brand-new.
+- Acronymizer now properly spaces dashes in subject names, and lab vs theory attendance cards are detected by name instead of fragile code letters.
+- The update count and red dot clear from the sync button once pending items are downloaded, and no longer flash on at startup.
+- The “What’s New” dialog now reliably shows once after every version update.
+
 ## 2.1.0 — Session Manager, Smarter Room Finder & Navigation Overhaul (Aug 30, 2026)
 
 ### Added
