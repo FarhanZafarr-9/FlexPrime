@@ -2,6 +2,31 @@
 
 All notable changes to FlexPrime are documented here, in reverse chronological order.
 
+## 2.2.2 — Emojis, Speed & Easier Updates (Sep 16, 2026)
+
+### Added
+
+- A new interactive Top Bar slide in the intro tour — tap each top-bar icon to learn what it does before you sign in.
+- A combined “Timetable Data (JSON)” resource is now tracked in the sync sheet — a single JSON covering every course, discipline, and section.
+- Menus get a new warning accent and neater colours across all options.
+
+### Improved
+
+- Dashboard, timetable, and datesheet cards now share one emoji set, so moods look consistent across the app.
+- Marks and insights cards get a touch of emoji — card headers, empty states, and totals now show how you’re doing at a glance.
+- The app starts up noticeably faster.
+- Syncing feels quicker with clearer progress messages along the way.
+- Intro feature chips now mirror the app’s real screens with matching icons, ending with a “More in app” tile.
+- Top-bar icon buttons highlight while their menu is open — the active menu is always easy to spot.
+- A “Download All” button in the resource sync sheet grabs every pending update in one tap.
+- Sync indicators are clearer and tidier, and busy actions show a spinner and resist double taps.
+
+### Fixed
+
+- Emojis on your current exam and class cards no longer drop out partway through — the face always matches how you’re doing.
+- Dashboard no longer crashes while data settles — missing info now shows a clean fallback.
+- The dashboard’s next-exam card now always shows your next upcoming exam — it stays up when today’s paper has already finished instead of disappearing, and handles more date formats.
+
 ## 2.2.1 — Cloudflare Bypass, Login Hotfix & Attendance Sync (Sep 12, 2026)
 
 ### Added
