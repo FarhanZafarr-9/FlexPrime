@@ -2,6 +2,35 @@
 
 All notable changes to FlexPrime are documented here, in reverse chronological order.
 
+## 2.2.3 — Admit Card, Straight to Your Phone (Sep 20, 2026)
+
+### Added
+
+- A brand-new Admit Card screen — pulls your official card from the portal as a PDF, with pinch-zoomable preview and a quick-save/share button.
+- The card is downloaded once and kept on your device, so it still opens even if the portal session has expired.
+- Sharing FlexPrime is now a single tap from the side menu — the same scan-to-download QR sheet moved out of the top bar, so that menu stays tidy.
+
+### Improved
+
+- Full and partial refreshes keep the card up to date automatically — a fresh copy is fetched whenever it gets old or an exam is coming up, and the previous file is replaced.
+- The Insights and Rechecking guide dialogs got a proper talking-to — fewer decorative doodles, more getting to the point.
+- The warning screens got a friendlier makeover — everything is laid out more clearly and easier to scan at a glance.
+- Each warning now uses the right colour for how serious it is — red for real access blocks, amber for brief outages and updates, and the app’s brand colour for helpful, informational notices.
+- Status details sit in a neat table with a colour-coded badge, and every button has a smooth press animation.
+- The Session & Sync panel got a compact status summary that shows how long your session is still valid, so you always know when a refresh needs a fresh sign-in.
+
+### Fixed
+
+- The little 'new' dot next to Admit Card now actually disappears after you've read the intro, instead of gaslighting you about it forever.
+- No-login quick refreshes now only trust a session cookie that is less than an hour old — longer sessions ask you to sign in again, so refreshes pull real changes instead of silently reusing a stale session.
+- Continuing offline loads your cached data first — no more dashboard parked on a never-ending loading screen when you have no internet.
+- A failed sync no longer leaves the app stuck on "refreshing" forever — the loading state always clears when the portal or your connection drops.
+- The app now tells the difference between "no internet at all" and "unstable network" on startup — fully offline devices get a clear No Internet screen instead of the weak-signal one, and retrying works over cellular as well as Wi-Fi.
+- Semester-completion detection is firmer — a semester only counts as over when BOTH the calendar end date has passed AND your own exams have finished, so the timetable isn’t locked mid-term.
+- The home screen’s schedule populates from the same semester-ending fix — classes no longer vanish from the Today card as soon as your last exam is done, if the semester end date hasn’t actually been reached.
+- Academic Journey no longer crashes while semester data is still loading — the loading cards now render safely even before a semester arrives, so you see the skeleton screens instead of an error page.
+- Transcript, study-plan, and recommendation cards are more tolerant of incomplete portal data — odd or missing semester entries now show an empty state instead of crashing the screen.
+
 ## 2.2.2 — Emojis, Speed & Easier Updates (Sep 16, 2026)
 
 ### Added
