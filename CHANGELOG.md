@@ -2,6 +2,25 @@
 
 All notable changes to FlexPrime are documented here, in reverse chronological order.
 
+## 2.3.0 — Instructors, Bookmarks & Free Time (Oct 6, 2026)
+
+### Added
+
+- Faculty Hub is now Instructors — cleaner name, same great spot, and updated everywhere you look.
+- Bookmark professors you like. They pin straight to the top of the Instructors list, and their contact sheet now has a neat bookmark button.
+- Each Teaching tab now shows Free Time — the gaps between classes, plus the rest of the day from 8:30 AM to 6 PM. So you know when they're most likely around.
+
+### Improved
+
+- Teaching schedule cards now show when a class ends, not just when it starts.
+- The app name in the top bar got a roomier tap target — a nice, round ripple with no layout shifting.
+
+### Fixed
+
+- Mixed 12-hour and 24-hour class times now line up correctly, so free-time windows don’t wander. No end time? We assume the usual 80-min theory / 170-min lab.
+- "Not Scheduled" placeholders no longer clutter the list, and reviews for bookmarked instructors sync themselves in the background.
+- Keep-alive pings watch your session but no longer stretch the one-hour refresh window — past the hour, we still ask for a fresh sign-in.
+
 ## 2.2.3 — Admit Card, Straight to Your Phone (Sep 20, 2026)
 
 ### Added
