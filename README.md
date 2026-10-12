@@ -11,19 +11,87 @@
 
 ## Screenshots
 
-<div align="center">
-  <img src="assets/screenshots/login.jpg" width="24%" />
-  <img src="assets/screenshots/dashboard.jpg" width="24%" />
-  <img src="assets/screenshots/attendance.jpg" width="24%" />
-  <img src="assets/screenshots/marks.jpg" width="24%" />
-  <img src="assets/screenshots/timetable.jpg" width="24%" />
-  <img src="assets/screenshots/materials.jpg" width="24%" />
-  <img src="assets/screenshots/side_nav.jpg" width="24%" />
-  <img src="assets/screenshots/insights.jpg" width="24%" />
-  <img src="assets/screenshots/help_guides.jpg" width="24%" />
-  <img src="assets/screenshots/faculty_hub.jpg" width="24%" />
-  <img src="assets/screenshots/marks_preview.jpg" width="24%" />
-</div>
+<p align="center">
+  <img src="assets/screenshots/Dashboard.png" width="150" alt="Dashboard">
+  <img src="assets/screenshots/Marks%20%26%20Grades.png" width="150" alt="Marks">
+  <img src="assets/screenshots/Attendance.png" width="150" alt="Attendance">
+  <img src="assets/screenshots/Timetable.png" width="150" alt="Timetable">
+  <img src="assets/screenshots/Materials.png" width="150" alt="Materials">
+</p>
+
+### Core
+
+<table>
+<tr>
+<td width="170"><img src="assets/screenshots/Dashboard.png" width="160" alt="Dashboard"></td>
+<td><b>Dashboard</b><br>Quick stats, today's schedule and recent changes at a glance, with resource sync.</td>
+</tr>
+<tr>
+<td width="170"><img src="assets/screenshots/Marks%20%26%20Grades.png" width="160" alt="Marks"></td>
+<td><b>Marks &amp; Analytics</b><br>Weighted averages, predicted grades, SGPA/CGPA and your strongest and weakest subjects.</td>
+</tr>
+<tr>
+<td width="170"><img src="assets/screenshots/Attendance.png" width="160" alt="Attendance"></td>
+<td><b>Attendance</b><br>Color-coded risk per course, plus how many classes you can still miss or need to attend.</td>
+</tr>
+<tr>
+<td width="170"><img src="assets/screenshots/Timetable.png" width="160" alt="Timetable"></td>
+<td><b>Timetable</b><br>Calendar and list views, manual entry, and export as image or PDF.</td>
+</tr>
+</table>
+
+<details>
+<summary><b>Detail screens</b></summary>
+<br>
+<table>
+<tr>
+<td width="170"><img src="assets/screenshots/Marks%20Detail.png" width="160" alt="Marks detail"></td>
+<td><b>Course marks</b><br>Every assessment with class average comparison and live diff-checking.</td>
+</tr>
+<tr>
+<td width="170"><img src="assets/screenshots/Attendance%20Detail.png" width="160" alt="Attendance detail"></td>
+<td><b>Course attendance</b><br>Week-by-week lectures: present, absent and allowed absences.</td>
+</tr>
+</table>
+</details>
+
+<details>
+<summary><b>Resources &amp; community</b></summary>
+<br>
+<table>
+<tr>
+<td width="170"><img src="assets/screenshots/Materials.png" width="160" alt="Materials"></td>
+<td><b>Materials Hub</b><br>Past papers, notes and outlines organized by course.</td>
+</tr>
+<tr>
+<td width="170"><img src="assets/screenshots/Faculty%20Hub.png" width="160" alt="Faculty Hub"></td>
+<td><b>Faculty Hub</b><br>Professor profiles and student ratings.</td>
+</tr>
+<tr>
+<td width="170"><img src="assets/screenshots/Insights.png" width="160" alt="Insights"></td>
+<td><b>Insights</b><br>Recent changes after every sync, grouped by marks and attendance.</td>
+</tr>
+</table>
+</details>
+
+<details>
+<summary><b>Help &amp; navigation</b></summary>
+<br>
+<table>
+<tr>
+<td width="170"><img src="assets/screenshots/Help%20Guides.png" width="160" alt="Help Guides"></td>
+<td><b>Help Guides</b><br>Visual walkthroughs of each card, grid and button.</td>
+</tr>
+<tr>
+<td width="170"><img src="assets/screenshots/Menu.png" width="160" alt="Menu"></td>
+<td><b>Menu</b><br>Core features, productivity tools and customization (dark mode, AMOLED, accent colors).</td>
+</tr>
+<tr>
+<td width="170"><img src="assets/screenshots/Login.png" width="160" alt="Login"></td>
+<td><b>Login</b><br>Sign in with university credentials or continue as a guest.</td>
+</tr>
+</table>
+</details>
 
 ---
 
