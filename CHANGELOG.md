@@ -2,6 +2,71 @@
 
 All notable changes to FlexPrime are documented here, in reverse chronological order.
 
+## 2.4.0 — Login Progress & Session Fixes (Oct 14, 2026)
+
+### Added
+
+- Signing in now shows you every step of the sync instead of a spinner. Session check, profile, marks, attendance, schedule — you can watch it happen.
+- Material You can finally be switched on. Set your accent to Neutral and it will start following your wallpaper — the system always did know best.
+- Instructor free time knows what time it is now. The window that is open right now lights up green with a NOW badge, and today gets a TODAY marker.
+- A new card tells you where they most likely are: in class with the room number, free until the next lecture, between classes, or already gone home.
+
+### Improved
+
+- Continue to Dashboard sits at the bottom the whole time. Leave whenever you like — the sync carries on in the background.
+- The Continue to Dashboard button now carries the state: a spinner while the sync is still running, a tick once it lands. The tick draws itself in rather than two icons swapping.
+- Refresh always signs you in again now. No silent reuse of an old cookie, and no probing before a real fetch.
+- Your session counts as valid while you hold a working cookie. If the portal has genuinely dropped you, the next fetch says so and signs you out.
+- The Session & Sync panel now tells you when you last actually pulled data, rather than counting down to a limit that no longer exists.
+- Every change now carries its own icon, so you can tell a new feature from a fix from a tweak at a glance instead of squinting at three letters.
+- Settings finally fits on one screen. Six sprawling groups became eight focused ones, and the busy ones are split into sections.
+- Experimental and New tags now colour the entire row — title, description and switch — and sit at the end of the title instead of trailing off underneath it.
+- Dropdowns and the text-size stepper now share one control: a single box with a dashed divider, instead of a pill with a button parked beside it.
+
+### Fixed
+
+- Cached logins finish properly now. If your data was already up to date, the app used to sit on the loading step and never move on.
+- A sync that dies partway no longer leaves you waiting. It says what happened and still lets you in.
+- The success screen no longer ran off the bottom of the sheet with the button cropped.
+- Rings and text sit on the same baseline, and the line between steps still connects when a step wraps to two lines.
+- The sign-in sheet no longer falls over while it animates. A curve meant for the old animation library was being handed to the new one.
+- No more "Session expired" while everything is actually working. The app had been guessing your session was dead on a timer.
+- A sync that quietly fell back to cached data no longer counts as proof your session works — so stale data cannot pass for fresh.
+- Five dead switches removed — Compact Layout, Usage Analytics, Unrestricted Materials, Update Button and Export Data. Flipping them did precisely nothing, which was the whole problem.
+- Evening classes finally count. Anything starting after 6pm used to fall out of the timetable, so a busy teacher looked free all evening.
+- The attendance note now says which number is the adjusted one and which is the percentage your own lectures work out. It stays collapsed until you tap it.
+- Your class alerts are no longer cancelled and rebuilt every time you open the app. Nothing about your schedule had changed, so the app now leaves the alerts alone.
+- If the device does lose the class alerts, the app rebuilds them on the spot instead of wiping them and waiting for the next launch.
+- A press that never became a tap no longer sets the action off, and the button always goes back to its normal shape.
+- The admit card placeholder now fills the card it stands in for and its shimmer sweeps the whole width. The stray second shimmer bar across the top is gone.
+- A card of changes that covers several subjects opens the right place now. It used to land on a marks preview with no subject in it, so the screen had nothing to show.
+- A mark that lands under the class average no longer wears a green tick. The score and the icon turn red, so a weak result does not look like a good one.
+- When one sync brings in the marks of more than one subject, every row and every pill now says which subject it belongs to. The short name is used, so it still fits.
+
+### Tweaked
+
+- Finished steps tick off, the current one spins, and the next one shimmers while it is on its way.
+- The sheet header carries the app mark, lined up with the step rings and the button below it.
+- The success screen waits a few seconds before moving on, so you actually get to see it.
+- More steps fit on screen now, so the list grows instead of constantly replacing the oldest line.
+- The app hands you over to your dashboard a couple of seconds sooner after the sign-in finishes.
+- The big status banner is gone from that panel. With refresh always signing you in again, it had little left to say.
+- Those icons are drawn crisper at small sizes, and the rows sit at a consistent distance from each other.
+- Reset All Settings gets a little spring and a haptic tap. Wiping everything you configured deserves a small ceremony.
+- The class that is running right now is flagged under Currently Teaching as well, so you know which room to walk into.
+- After 8:30 the university is closed, so we say they are off campus. Even if they had a class, they will have packed up by then.
+- The Resource Sync sheet stops offering "Download All" when there is only one thing to download.
+- The buttons at the bottom of a sheet round into a pill the moment you press them, and they act the moment you let go.
+- The next class card and the semester card now share the dashboard row evenly, instead of one crowding the other.
+- Both of them settle into place once the dashboard has loaded, so the row no longer jumps while the data is still on its way.
+- The next class and semester cards hold their even split until the numbers have landed as well, so the row settles once instead of twice on the way in.
+- The greeting under the dashboard title says what the day is going to be like now, instead of just saying hello. It holds that line back until the dashboard has settled.
+- The square behind a row icon and the pills of a collapsed card are a touch softer now.
+
+### Notes
+
+- The app no longer pings the portal every 12 minutes just to check you are still signed in. That probe was touching your session cookie, which is exactly what you do not want.
+
 ## 2.3.5 — Consistency & Clean-Up (Oct 14, 2026)
 
 ### Improved
