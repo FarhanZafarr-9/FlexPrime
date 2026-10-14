@@ -202,6 +202,9 @@ Everything the portal does, FlexPrime does faster. Everything it doesn't do — 
 
 <sub>The badge goes through Obtainium's redirect page, so it opens the Add App screen on Android and offers a download link everywhere else.</sub>
 
+> [!NOTE]
+> **Why the first add isn't instant:** Obtainium downloads the APK once when you add an app, so it can compare it against what's already on your device and set the install status correctly — and, on forks like ObtainX, verify the build's signature before anything gets installed. The first add is ~30 MB of data; after that, update checks just read the release page and only fetch an APK when you actually install one.
+
 ---
 
 ## Known Limitations
