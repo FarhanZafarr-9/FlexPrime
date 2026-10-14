@@ -196,14 +196,14 @@ Everything the portal does, FlexPrime does faster. Everything it doesn't do — 
 
 <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https%3A%2F%2Fgithub.com%2FFarhanZafarr-9%2FFlexPrime"><img src="assets/badge-obtainium.png" width="161" alt="Get FlexPrime on Obtainium"></a>
 
-1. Grab Obtainium from [its latest release](https://github.com/ImranR98/Obtainium/releases/latest) — forks like [ObtainX](https://github.com/bikram-agarwal/ObtainX) work too
+1. Grab Obtainium from [its latest release](https://github.com/ImranR98/Obtainium/releases/latest)
 2. Tap the badge above — or open Obtainium, tap **Add App**, and paste `https://github.com/FarhanZafarr-9/FlexPrime`
 3. Tap **Install**. That's it — updates are pulled from GitHub Releases from then on
 
 <sub>The badge goes through Obtainium's redirect page, so it opens the Add App screen on Android and offers a download link everywhere else.</sub>
 
 > [!NOTE]
-> **Why the first add isn't instant:** Obtainium downloads the APK once when you add an app, so it can compare it against what's already on your device and set the install status correctly — and, on forks like ObtainX, verify the build's signature before anything gets installed. The first add is ~30 MB of data; after that, update checks just read the release page and only fetch an APK when you actually install one.
+> **Why the first add isn't instant:** Obtainium downloads the full APK when you add an app, so it can compare it against what's already on your device, set the install status correctly, and verify the build's signature before anything gets installed. After that, update checks just read the release page and only fetch an APK when you actually install one.
 
 ---
 
