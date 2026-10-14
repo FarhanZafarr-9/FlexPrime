@@ -2,6 +2,34 @@
 
 All notable changes to FlexPrime are documented here, in reverse chronological order.
 
+## 2.3.5 — Consistency & Clean-Up (Oct 14, 2026)
+
+### Improved
+
+- When Flex's percentage beats your raw record, we now say why — classes not held yet count as present.
+- Alerts are two short lines now. Nothing gets chopped off on your lock screen.
+- They say the subject name, not a course code. One countdown format for all of them.
+- Rechecking alerts show the instructor and drop the date — they only ever land on the day.
+- The "Something Changed" sheet keeps it short. Cards start collapsed, subjects marked in the same sync merge into one, and the overflow links to the full list.
+- The splash version line slides up now, instead of fading in like a ghost.
+- The login placeholder matches the Cloudflare check Flex actually shows. It was still drawing last year's checkbox.
+- The Built With list leads with real logos instead of plain badges.
+
+### Fixed
+
+- Double classes count as one skip now, not two. You were never over your limit — the maths was double-counting.
+- Allowed absences come from your timetable now: 6 if it meets twice a week, 3 if once.
+- Every screen runs the same maths now. The dashboard and subject list have stopped arguing.
+- Red means you are actually over. Amber waits until you are one miss away — no more panicking early.
+- The detail table no longer calls a 78% subject "Good".
+- Credit hours come from your course entry now, instead of being reverse-engineered from your absences.
+- Lab detection fixed. ENGL101 was a lab purely because of its L.
+- Classes know their own length now. You were not being kicked out of labs an hour early.
+- Manual courses get an end time now, instead of ghosting your Next card.
+- Evening classes count down correctly again. 5:20 PM is no longer 5:20 AM.
+- Two classes sharing a name no longer both get the highlight.
+- Re-syncing your timetable no longer nukes every class notification on your phone.
+
 ## 2.3.0 — Instructors, Bookmarks & Free Time (Oct 6, 2026)
 
 ### Added
