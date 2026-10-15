@@ -194,7 +194,7 @@ Everything the portal does, FlexPrime does faster. Everything it doesn't do — 
 
 [Obtainium](https://github.com/ImranR98/Obtainium) installs and updates apps straight from their release pages. Add FlexPrime once and every new version lands on your device automatically — no manual downloads, no hunting through release notes.
 
-<a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https%3A%2F%2Fgithub.com%2FFarhanZafarr-9%2FFlexPrime"><img src="assets/badge-obtainium.png" width="161" alt="Get FlexPrime on Obtainium"></a>
+<a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https%3A%2F%2Fgithub.com%2FFarhanZafarr-9%2FFlexPrime"><img src="assets/badge-obtainium.png" width="220" alt="Get FlexPrime on Obtainium"></a>
 
 1. Grab Obtainium from [its latest release](https://github.com/ImranR98/Obtainium/releases/latest)
 2. Tap the badge above — or open Obtainium, tap **Add App**, and paste `https://github.com/FarhanZafarr-9/FlexPrime`
