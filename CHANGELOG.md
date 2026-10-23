@@ -2,6 +2,80 @@
 
 All notable changes to FlexPrime are documented here, in reverse chronological order.
 
+## 2.6.0 — Assignments on the Dashboard & Smarter Attendance Links (Oct 23, 2026)
+
+### Added
+
+- Tired of strict absolute cutoffs ruining your GPA dreams? You can now toggle Relative Grading per course powered by official MCA lookup tables (MCA 30–91).
+- Added a dedicated "Grading Schemes" page in Settings so you can flip any course between Absolute and Relative grading with zero fuss.
+- Changelogs show the latest revision by default. Enable Show Complete Changelog under Settings > Sync & Updates > App Updates to read all changes in the release.
+- Your dashboard now has an Assignments section. It lists up to five pending tasks by due date, with the subject and a plain due label like "Due today" or "3d left".
+- When the day's classes are done, the schedule card is joined by your attendance streak — the days in a row where every class was attended, with your best run underneath.
+- The streak card now has a little something extra for your best runs.
+- You can now add a GitHub username under Settings > Dashboard & Features > Integrations. Verify it once, switch on GitHub Activity, and your contribution graph appears on the dashboard.
+- The card starts collapsed to keep the home screen tidy. Tap it to expand, use the refresh button for the latest counts, and use the arrow to open the full Dev screen for the developer profile or the matching GitHub account for anyone else.
+- The FlexPrime title in the top bar now opens a quick menu with Share App (QR), Star on GitHub, and Spread the Word.
+- Bug reports now have a clearer title, description and context flow, with a Report option that opens a prefilled GitHub issue for you to review and submit.
+
+### Improved
+
+- Marks preview now displays only your selected grading table with live cell highlighting, starting from A+ with a focused 5-grade window to save your thumbs from endless scrolling.
+- A handy dashed banner right under your performance cards shows whether Relative or Absolute grading is active, with a quick shortcut to change it.
+- Performance cards, subject tiles, and Academic Journey projections now calculate expected SGPA and CGPA in sync with your active grading scheme.
+- App toggles now feature sliding check and cross icons right on the thumb, with a larger tactile thumb so you never doubt if a setting is actually on.
+- App Lock got a fresh look and smoother animations. Your academic damage stays confidential.
+- Exam days, exam breaks, and preparation days now show a compact notice instead of regular classes for today. The NOW indicator stays off, while weekly browsing and editing remain available.
+- Subject Hub attendance has a clearer percentage and attendance bar, a separate class-count summary, recent attendance icons, and an absence-allowance summary. The extra top Back button has been removed.
+- Release notes are now grouped by change type, with distinct colored headers, change counts, feature labels, and more breathing room for easier scanning.
+- The manual timetable wizard now lets Wednesday pair with either Monday or Friday, while keeping Tuesday and Thursday paired. Automatic day selection also respects the day limit.
+- Wednesday–Friday pairs have separate editable time ranges, so shifted Friday timings no longer have to match the preset slots or Wednesday timings.
+- The exam countdown stays hidden until all of today's exams finish, then shows the next upcoming exam so it no longer repeats today's schedule.
+- Each assignment card picks up an accent from its deadline, priority and type together. A project starts warning earlier than an assignment or quiz, and everyday tasks keep the standard quick-action card look.
+- An empty dashboard no longer hides Assignments. It shows a "No upcoming assignments" card that takes you straight to the tracker.
+- The same exact-code resolution now backs Notifications deep links and attendance preview fallbacks, so every route ends up on the same class.
+- Marks and attendance cards use Feather icons in their headers now, and the empty marks category uses a document icon instead of an emoji.
+- The home graph keeps its legend out of the way, shows the account and last-year total, and shares its cache with the Dev screen, so both always tell the same story.
+- Share flows now use a single QR sheet with the app logo across the side menu, Settings, Dev, and the top bar. The horizontal layout keeps the QR tight with a visible URL badge.
+- Bug reports include the current app version and revision, such as 2.6.0-r2-stable, so issues arrive with useful release context.
+
+### Fixed
+
+- Relative grade lookup now operates strictly on real absolute marks (absolutes) and requires class MCA ≥ 30, cleanly waiting for sufficient data instead of miscalculating on partial percentages.
+- MCA lookups now round absolute marks instead of truncating — because half a point can be the difference between a C and a C+.
+- Transcript grades now match across hyphens and code variations, ensuring your hard-earned grades appear exactly where they belong.
+- Fixed a crash when tapping blurred dashboard cards in Confidential Mode. Cards now reveal on tap and blur again after four seconds.
+- Fixed a grid-card animation driver conflict that could report unsupported width animation errors on Android.
+- Timetable cards now follow expansion updates, remeasure changing content, and refresh the NOW indicator every minute and on focus, with improved time parsing.
+- The dashboard update sheet now tracks revision counts as well as the release version, so new revisions appear even without a version bump.
+- Returning to the Dashboard now refreshes locally saved assignments immediately, so new and edited tasks appear without a full portal sync.
+- Tapping an attendance entry from Insights now opens the exact subject you tapped. Theory and lab subjects with the same discipline letter no longer swap places.
+- If the usual contributions service is down, the app now asks GitHub directly. Failed loads show a dashed retry box instead of an empty grid, and saved data keeps showing while you're offline.
+- Attendance updates now keep the correct lecture date and present or absent status, even when the portal sends new rows first or reorders older rows.
+- Notifications now keeps separate refresh batches together, so the latest attendance changes no longer get grouped with older updates.
+- The login sheet protects an in-progress submission from accidental dismissal and now shows a connected portal-to-dashboard success illustration before handoff.
+- The admit card PDF preview now keeps its shimmer in place until the document has actually rendered, avoiding blank frames and loading flicker.
+- The app-update action closes the resource sync sheet before opening the dedicated update sheet.
+
+### Tweaked
+
+- Next class and exam cards now use compact course titles while waiting and during ongoing sessions, leaving more room for venue and time details.
+- Weekly classes in Subject Hub use a compact rounded table with centered values and alternating row backgrounds. The exam section no longer shows a venue placeholder, and the class-average footer has a distinct status treatment.
+- Datesheet exam cards have smaller time text, clearer countdown backgrounds, and a fully rounded Subject button with a neutral background.
+- Exam schedule cards now show the subject without the extra EXAM badge.
+- The section uses the same shimmer treatment as the rest of the dashboard while it loads, and "View All" waits until it is ready.
+- Assignments now sort only by due date, with cleaner cards and a compact date picker sheet for add and edit forms.
+- Assignment actions are clearer now: completion stays on the card tap, while long press focuses on editing and deleting.
+- The Open and View All row in the insights sheet has a soft rounded outline, with the ripple kept inside it.
+- While the graph loads, a shimmer placeholder holds its place.
+- The sync milestone sheet has a fresh look. Same thank-you, better view.
+- Assignments moved out of Extra Utilities and now sits directly after Insights under Smart Tools.
+- The animated splash now shows the app version without the build-channel label.
+- The dashboard Coding Activity card opens without a blank flash, keeps its graph mounted between expands, and can scroll horizontally like the Dev screen.
+- Resource syncing now fades smoothly from its skeleton into the loaded state, with a fuller up-to-date panel that keeps the same space.
+- Login loading placeholders now line up with the portal form more closely, including the Cloudflare box, button spacing and proportions.
+- Timetable’s current-item card now expands smoothly from its compact shimmer into the active full-width state, with its title, value and description fading in together.
+- Subject Hub’s third quick-stat card now uses the full row when it is the only card left, giving the summary grid a cleaner balance.
+
 ## 2.4.0 — Login Progress & Session Fixes (Oct 14, 2026)
 
 ### Added
