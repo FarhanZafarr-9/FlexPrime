@@ -2,6 +2,53 @@
 
 All notable changes to FlexPrime are documented here, in reverse chronological order.
 
+## 2.8.0 — Grade Accuracy, Lock & Nav Fixes (Nov 19, 2026)
+
+### Added
+
+- Headed for an F? Marks Preview now shows what you'd need to pass, plus how much is still up for grabs. Works whichever way you're graded.
+- Want an early read on your relative grade? Turn on "Estimate when MCA < 30" in Settings. Off by default, since we'd rather wait for real numbers than squint at percentages.
+- Marks Preview also lets you try a what-if class average for a one-time peek. Nothing saved, real grades untouched, and no setting to hunt down first.
+- Rescheduled a class? Add a makeup class with its date, time and room. Your course's usual time and room fill in to start.
+- Makeup classes show up in your dashboard schedule, even on exam or prep days. A small MAKEUP note marks the rescheduled one.
+- A scannable QR code now takes friends straight to the newest download, and the GitHub link is one tap away.
+
+### Improved
+
+- Relative grading is still around when absolute cutoffs get stubborn. Pick it per course and change your mind anytime, no judgement.
+- Activity details now show how you stack up against the class, ties included, without making you do the math.
+- They stick around when your timetable updates. Your timetable also keeps a compact list, with a tap to remove one.
+- Sync updates now speak human, with plain-language steps and honest notes when a few details come from your saved copy.
+- Sharing from the top bar, the share popup, and the sync milestone now sends the same friendly message with a link that actually lands on the download.
+
+### Fixed
+
+- Reopening the chooser remembers your last pick, so you don't have to play "which one did I choose?"
+- Relative predictions now use the right class average, without double-counting or getting overexcited.
+- Expected SGPA/CGPA now wait for confirmed results instead of guessing. Early relative grades are opt-in and clearly labeled, so no crystal-ball grades here.
+- Unknown or pending grades now show a calm "-" instead of looking like a crisis, with colors that behave the same everywhere you see them.
+- Your per-course grading scheme choice now survives version refreshes, so you won't have to pick Relative vs Absolute all over again.
+- Hidden marks stay hidden, with no more flickery blur when you scroll (and your phone can breathe easier).
+- No weight set yet? We'll say so instead of a misleading "0%", and stop the stats from pretending everything's zero.
+- Categories with marks but no weight still get useful min/average/max numbers. Nothing to compare? You'll get a clear "no stats yet" note instead of a blank stare.
+- App Lock now waits for your tap to unlock, so no surprise auto-attempts and no getting stuck on "Verifying" when you return.
+- When your data starts to go stale, the notice now sends you to sign in properly instead of trying a quiet refresh behind your back.
+- The next class card keeps its short name and shows just the start time. "D Lab" got politely shown the door.
+- A sync that hits a snag no longer ends on a cheerful success note, and error popups stop showing raw internal text.
+
+### Tweaked
+
+- Courses with progress but no final grade yet keep an A/B-style accent. In progress is not in trouble.
+- The Marks Preview guide now walks you through the header buttons and relative grading table, including what to expect while your grade is still a rough guess.
+- Estimate messages now speak human, with a plain heads-up instead of a math puzzle to decode before you can read your own grade.
+- Class-average comparisons now show how far above or below you are, and quietly skip themselves when there's nothing worth saying.
+- A little visual tidy-up across marks rows and sheets makes things cleaner and calmer, with less to squint at.
+- Small polish on the share popup: a badge around the app icon, softer QR corners, and a link that stays fully visible.
+- Every tenth sync now comes with a small progress track and your sync count. Tiny celebration, no confetti.
+- The in-between sync notice now uses a refresh cue, so "still working" reads at a glance.
+- A couple of behind-the-scenes options have been retired. No everyday feature was touched, promise.
+- The FlexPrime name in the top bar now looks tappable, because it is. Give it a tap for sharing and a few other shortcuts.
+
 ## 2.6.0 — Assignments on the Dashboard & Smarter Attendance Links (Oct 23, 2026)
 
 ### Added
