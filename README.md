@@ -1,8 +1,10 @@
 # FlexPrime — Academic Companion for FASTians
 
 [![Download](https://img.shields.io/badge/Download-Latest_Release-f5f5f5?style=for-the-badge&logo=android&logoColor=f5f5f5&labelColor=08080b)](https://github.com/FarhanZafarr-9/FlexPrime/releases/latest)
-[![Version](https://img.shields.io/badge/Version-2.0.0-f5f5f5?style=for-the-badge&labelColor=08080b)](https://github.com/FarhanZafarr-9/FlexPrime/releases)
+[![Version](https://img.shields.io/badge/Version-2.8.0-f5f5f5?style=for-the-badge&labelColor=08080b)](https://github.com/FarhanZafarr-9/FlexPrime/releases)
 [![Platform](https://img.shields.io/badge/Platform-Android-f5f5f5?style=for-the-badge&logo=android&logoColor=f5f5f5&labelColor=08080b)](https://github.com/FarhanZafarr-9/FlexPrime)
+
+> 📖 **Version history:** [Full changelog](CHANGELOG.md) · [All releases](https://github.com/FarhanZafarr-9/FlexPrime/releases)
 
 > **Built to give every FASTian the prime academic experience they deserve.**
 > Marks · Attendance · Timetable · Past Papers · Faculty Hub · Study Plans — faster, smarter, and more useful than the official portal.
@@ -108,6 +110,9 @@ Everything the portal does, FlexPrime does faster. Everything it doesn't do — 
 ### Dashboard
 - Centralised overview of your academic life at a glance
 - Quick stats: attendance, GPA, upcoming classes, pending assignments
+- **Assignments at a glance** — up to five pending tasks by due date, right on the home screen
+- **Attendance streak** — consecutive days with every class attended, plus your best run
+- **GitHub Activity** — optional contribution graph, expandable in place
 - **Recent Changes**: see what's new after every sync — marks updates, attendance changes, and system detections, each tappable to navigate directly
 - Resource Sync status indicator with on-demand refresh
 
@@ -116,7 +121,8 @@ Everything the portal does, FlexPrime does faster. Everything it doesn't do — 
 - Live diff-checking — notified the moment new marks are posted
 - Class average comparisons and performance tracking
 - Approximated SGPA/CGPA the official portal doesn't provide
-- Absolute grading scheme support
+- **Absolute and relative grading** — optional MCA-table-based relative grading, switchable per course
+- **Marks Preview** — see what you need to pass, try a what-if class average, and opt into early estimates
 - Repeat/improvement detection from transcript history
 
 ### Attendance
@@ -128,12 +134,14 @@ Everything the portal does, FlexPrime does faster. Everything it doesn't do — 
 ### Timetable
 - Clean calendar and list views with venue and instructor details
 - **Manual Timetable Entry** — build your schedule manually when the server can't provide it
+- **Makeup classes** — add rescheduled classes with their own date, time and room
 - Export as image or PDF
 - Ramadan-adjusted schedule support
 
 ### Datesheet & Exams
 - Full exam schedule with date, time and venue
 - Clash detection and countdown timers
+- **Admit Card** — pull your official PDF from the portal and keep it on-device for offline access
 - Export as image or PDF for offline reference
 
 ### Materials Hub
@@ -181,6 +189,10 @@ Everything the portal does, FlexPrime does faster. Everything it doesn't do — 
 - Font scaling, border radius and spacing controls
 - Concise UI mode for information-dense layouts
 
+### Privacy
+- **App Lock** — keep your academic data behind a lock screen
+- **Confidential Mode** — blur sensitive cards until you tap to reveal them
+
 ---
 
 ## Installation
@@ -189,6 +201,9 @@ Everything the portal does, FlexPrime does faster. Everything it doesn't do — 
 2. Enable **Install from Unknown Sources** if prompted
 3. Install and launch — sign in with your university credentials
 4. Your data syncs automatically on first login
+
+> [!NOTE]
+> Older entries on the [Releases page](https://github.com/FarhanZafarr-9/FlexPrime/releases) are version-history records and **contain no APK**. Always download from the [Latest release](https://github.com/FarhanZafarr-9/FlexPrime/releases/latest).
 
 ### Or install with Obtainium
 
