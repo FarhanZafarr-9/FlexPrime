@@ -1,11 +1,11 @@
 # FlexPrime — Academic Companion for FASTians
 
-[![Download Latest APK](assets/badges/download-latest.svg)](https://github.com/FarhanZafarr-9/FlexPrime/releases/latest)
+[![Download Latest APK](assets/badges/download-latest-v2.svg)](https://github.com/FarhanZafarr-9/FlexPrime/releases/latest)
 [![Version](https://img.shields.io/badge/Version-2.8.0-f5f5f5?style=for-the-badge&labelColor=08080b)](https://github.com/FarhanZafarr-9/FlexPrime/releases)
 [![Platform](https://img.shields.io/badge/Platform-Android-f5f5f5?style=for-the-badge&logo=android&logoColor=f5f5f5&labelColor=08080b)](https://github.com/FarhanZafarr-9/FlexPrime)
 [![Downloads](https://img.shields.io/github/downloads/FarhanZafarr-9/FlexPrime/latest/total?style=for-the-badge&label=Downloads&color=f5f5f5&labelColor=08080b)](https://github.com/FarhanZafarr-9/FlexPrime/releases/latest)
 [![Total downloads](https://img.shields.io/github/downloads/FarhanZafarr-9/FlexPrime/total?style=for-the-badge&label=Total%20downloads&color=f5f5f5&labelColor=08080b)](https://github.com/FarhanZafarr-9/FlexPrime/releases)
-[![View changelog](assets/badges/changelog.svg)](CHANGELOG.md)
+[![View changelog](assets/badges/changelog-v2.svg)](CHANGELOG.md)
 
 > 📖 **Version history:** [Full changelog](CHANGELOG.md) · [All releases](https://github.com/FarhanZafarr-9/FlexPrime/releases)
 
