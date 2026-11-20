@@ -1,8 +1,11 @@
 # FlexPrime — Academic Companion for FASTians
 
-[![Download](https://img.shields.io/badge/Download-Latest_Release-f5f5f5?style=for-the-badge&logo=android&logoColor=f5f5f5&labelColor=08080b)](https://github.com/FarhanZafarr-9/FlexPrime/releases/latest)
+[![Download Latest APK](assets/badges/download-latest.svg)](https://github.com/FarhanZafarr-9/FlexPrime/releases/latest)
 [![Version](https://img.shields.io/badge/Version-2.8.0-f5f5f5?style=for-the-badge&labelColor=08080b)](https://github.com/FarhanZafarr-9/FlexPrime/releases)
 [![Platform](https://img.shields.io/badge/Platform-Android-f5f5f5?style=for-the-badge&logo=android&logoColor=f5f5f5&labelColor=08080b)](https://github.com/FarhanZafarr-9/FlexPrime)
+[![Downloads](https://img.shields.io/github/downloads/FarhanZafarr-9/FlexPrime/latest/total?style=for-the-badge&label=Downloads&color=f5f5f5&labelColor=08080b)](https://github.com/FarhanZafarr-9/FlexPrime/releases/latest)
+[![Total downloads](https://img.shields.io/github/downloads/FarhanZafarr-9/FlexPrime/total?style=for-the-badge&label=Total%20downloads&color=f5f5f5&labelColor=08080b)](https://github.com/FarhanZafarr-9/FlexPrime/releases)
+[![View changelog](assets/badges/changelog.svg)](CHANGELOG.md)
 
 > 📖 **Version history:** [Full changelog](CHANGELOG.md) · [All releases](https://github.com/FarhanZafarr-9/FlexPrime/releases)
 
@@ -209,7 +212,7 @@ Everything the portal does, FlexPrime does faster. Everything it doesn't do — 
 
 [Obtainium](https://github.com/ImranR98/Obtainium) installs and updates apps straight from their release pages. Add FlexPrime once and every new version lands on your device automatically — no manual downloads, no hunting through release notes.
 
-<a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https%3A%2F%2Fgithub.com%2FFarhanZafarr-9%2FFlexPrime"><img src="assets/badge-obtainium.png" width="220" alt="Get FlexPrime on Obtainium"></a>
+[![Get it on Obtainium](assets/badges/obtainium.svg)](https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https%3A%2F%2Fgithub.com%2FFarhanZafarr-9%2FFlexPrime)
 
 1. Grab Obtainium from [its latest release](https://github.com/ImranR98/Obtainium/releases/latest)
 2. Tap the badge above — or open Obtainium, tap **Add App**, and paste `https://github.com/FarhanZafarr-9/FlexPrime`
