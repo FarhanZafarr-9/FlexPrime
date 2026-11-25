@@ -1,7 +1,7 @@
 # FlexPrime — Academic Companion for FASTians
 
 [![Download Latest APK](assets/badges/download-latest-v4.svg)](https://github.com/FarhanZafarr-9/FlexPrime/releases/latest)
-&nbsp;&nbsp;[![Version](https://img.shields.io/badge/Version-2.8.0-f5f5f5?style=for-the-badge&labelColor=1c1c1f)](https://github.com/FarhanZafarr-9/FlexPrime/releases)
+&nbsp;&nbsp;[![Version](https://img.shields.io/badge/Version-2.9.0-f5f5f5?style=for-the-badge&labelColor=1c1c1f)](https://github.com/FarhanZafarr-9/FlexPrime/releases)
 &nbsp;&nbsp;[![Platform](https://img.shields.io/badge/Platform-Android-f5f5f5?style=for-the-badge&logo=android&logoColor=f5f5f5&labelColor=1c1c1f)](https://github.com/FarhanZafarr-9/FlexPrime)
 &nbsp;&nbsp;[![Downloads](https://img.shields.io/github/downloads/FarhanZafarr-9/FlexPrime/latest/total?style=for-the-badge&label=Downloads&color=f5f5f5&labelColor=1c1c1f)](https://github.com/FarhanZafarr-9/FlexPrime/releases/latest)
 &nbsp;&nbsp;[![Total downloads](https://img.shields.io/github/downloads/FarhanZafarr-9/FlexPrime/total?style=for-the-badge&label=Total%20downloads&color=f5f5f5&labelColor=1c1c1f)](https://github.com/FarhanZafarr-9/FlexPrime/releases)
