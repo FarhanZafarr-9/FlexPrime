@@ -2,6 +2,31 @@
 
 All notable changes to FlexPrime are documented here, in reverse chronological order.
 
+## 2.9.0 — Sharing, Datesheets & Tidy Timetables (Nov 25, 2026)
+
+### Improved
+
+- The picker opens quickly, even with a long list. It stays empty until you search, waits for a pause in typing, and only shows results once there's enough to go on.
+- Confirm and Cancel now live beside the search box. Confirm shows a right arrow once you have picks, and Cancel shows a back arrow when you don't.
+
+### Fixed
+
+- Exported times now get the right AM/PM, and slots stay in a sensible order. Evening classes no longer moonlight as morning ones.
+- Datesheets now read more reliably, including dates from spreadsheet exports. Bad dates no longer sneak into your schedule.
+- The next exam card now shows the full paper name instead of the shortened one.
+- Sync notices now say what actually happened, whether everything refreshed, a saved copy was used, or you're already up to date.
+- Past makeup classes now clear themselves out once they're over, so your list only keeps the ones still worth a look.
+
+### Tweaked
+
+- The option to include your current picks stays put instead of crowding the picker.
+- Section-wise sharing has been retired. Your selected timetable and custom picks are still here, with cleaner tabs and softer tap feedback.
+- The old calendar/table tabs are gone. One Calendar view checkbox handles the switch, and full course titles now fit instead of getting clipped.
+- The sign-in summary now says a saved copy was used instead of talking about cache, which sounds a lot less like something went wrong.
+- One extra refresh option has been retired. Downloads and updates keep working as before.
+- The datesheet export button now uses a softer dashed outline, so it reads as a secondary action.
+- Loading and no-results messages now use a calmer shared style, with a small spinner when you're waiting.
+
 ## 2.8.0 — Grade Accuracy, Lock & Nav Fixes (Nov 19, 2026)
 
 ### Added
